@@ -1,0 +1,61 @@
+body {
+    border: 8px solid black;
+}
+#haaland {
+    text-align: center;
+    background-color: lightgray;
+}
+button {
+    text-transform: uppercase;
+    /* color: black; */
+    /* doubt to ask - after giving black color still its showing purple color */
+}
+
+button:hover {
+    color: white;
+    background-color: black;
+    margin-left: 50px;
+    cursor: pointer;
+    border: none;
+
+    /* text-align: center; */
+    /* doubt- after this property why the button is not coming to the centre??
+ */
+}
+
+strong {
+    font-size: large;
+    font-weight: bold;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+.neymar {
+    font-weight: lighter;
+    color: red;
+}
+
+/* body p:first-of-type {
+    color: red;
+}
+body p:nth-of-type(2) {
+    color: green;
+} */
+.btn-container {
+    padding: 16px;
+    border: 1px solid black;
+}
+
+.yes hover {
+    text-decoration-line: none;
+}
+
+.details-list {
+    list-style: square;
+}
